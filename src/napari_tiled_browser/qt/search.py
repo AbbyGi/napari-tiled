@@ -1,3 +1,5 @@
+from math import floor
+
 from qtpy.QtCore import Qt, Signal
 from qtpy.QtWidgets import (
     QComboBox,
@@ -96,26 +98,18 @@ class SearchResults(QWidget):
         self.model.events.connected.connect(self._on_connected)
         self.model.events.refreshed.connect(self._on_refreshed)
 
-    # def _on_connect_clicked(self):
-    #     url = self.url_entry.displayText()
-    #     if not url:
-    #         show_info("Please specify a url.")
-    #         return
-    #     try:
-    #         self.catalog = from_uri(url)
-    #     except Exception:
-    #         show_info("Could not connect. Please check the url.")
-    #         return
-    #     self.connection_label.setText(f"Connected to {url}")
-    #     self.catalog_table_widget.setVisible(True)
-    #     self._set_current_location_label()
-    #     self._populate_table()
+        if self.model.uri != "":
+            self.url_entry.setText(self.model.uri)
+            self.connection_label.setText(f"Connected to {self.model.uri}")
+            # Create the table if we already have a uri
+            self._set_current_location_label()
+            self._create_table_rows()
+            self._populate_table()
+            self.catalog_table_widget.setVisible(True)
 
     def _on_connect_clicked(self):
         url = self.url_entry.displayText()
         self.model.uri = url
-
-        # print(f"{self.catalog = }")
         self.connection_label.setText(f"Connected to {url}")
 
     def _on_connected(self, event):
@@ -127,7 +121,12 @@ class SearchResults(QWidget):
         self._populate_table()
 
     def _on_rows_per_page_changed(self, value):
+        lower_bound, _ = self.model.range
         self.model.page_limit = int(value)
+        self.model.page_number = min(
+            self.model.page_number,
+            floor(self.model.total_length / self.model.page_limit),
+        )
 
     def _create_table_rows(self):
         target_length = len(self.model.results)
@@ -142,15 +141,15 @@ class SearchResults(QWidget):
             self.catalog_table.setItem(row_index, 0, QTableWidgetItem(node))
 
     def _on_prev_page_clicked(self):
-        if self.model.page_offset != 0:
-            self.model.page_offset -= 1
+        if self.model.page_number != 0:
+            self.model.page_number -= 1
 
     def _on_next_page_clicked(self):
         if (
-            self.model.page_limit * (self.model.page_offset + 1)
+            self.model.page_limit * (self.model.page_number + 1)
             < self.model.total_length
         ):
-            self.model.page_offset += 1
+            self.model.page_number += 1
 
     def _set_current_location_label(self):
         start, end = self.model.range
@@ -165,7 +164,3 @@ class ClickableQLabel(QLabel):
 
     def mousePressEvent(self, event):
         self.clicked.emit()
-
-
-# TODO: handle changing the location label/current_page when on last page and
-# increasing rows per page

@@ -9,34 +9,32 @@ class ResultsPage:
         self._uri = None
         self._client = None
         self._total_length = 0
-        self.uri = uri
-        self._page_offset = 0
+        self._page_number = 0
         self._page_limit = DEFAULT_PAGE_LIMIT
         self.queries = []
         self.results = []
         self.events = EmitterGroup(
             source=self,
             auto_connect=True,
-            page_offset=Event,
+            page_number=Event,
             page_limit=Event,
             refreshed=Event,
             connected=Event,
             uri=Event,
         )
-        self.events.page_offset.connect(self.refresh)
+        self.events.page_number.connect(self.refresh)
         self.events.page_limit.connect(self.refresh)
         self.events.connected.connect(self.refresh)
-        self.events.uri.connect(self.refresh)
-        self.events.refreshed()
+        self.uri = uri
 
     @property
-    def page_offset(self):
-        return self._page_offset
+    def page_number(self):
+        return self._page_number
 
-    @page_offset.setter
-    def page_offset(self, value):
-        self._page_offset = value
-        self.events.page_offset(value=value)
+    @page_number.setter
+    def page_number(self, value):
+        self._page_number = value
+        self.events.page_number(value=value)
 
     @property
     def page_limit(self):
@@ -50,8 +48,8 @@ class ResultsPage:
     @property
     def range(self):
         return (
-            self.page_offset * self.page_limit,
-            min((1 + self.page_offset) * self.page_limit, self._total_length),
+            self.page_number * self.page_limit,
+            min((1 + self.page_number) * self.page_limit, self._total_length),
         )
 
     @property
@@ -68,7 +66,7 @@ class ResultsPage:
             return
         self._uri = value
         self.events.uri(value=value)
-        if value is None:
+        if value == "":
             self._client = None
         else:
             self._client = from_uri(value)
@@ -84,8 +82,8 @@ class ResultsPage:
         self.results.clear()
         self.results.extend(
             results.keys()[
-                (self.page_offset * self.page_limit) : (  # noqa E203
-                    (1 + self.page_offset) * self.page_limit
+                (self.page_number * self.page_limit) : (  # noqa E203
+                    (1 + self.page_number) * self.page_limit
                 )
             ]
         )
