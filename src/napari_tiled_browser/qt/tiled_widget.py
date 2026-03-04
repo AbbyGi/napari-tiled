@@ -262,6 +262,7 @@ class QTiledBrowser(QWidget):
             client=self.model.client,
             search_results=self.model.search_results,
             node_path_parts=self.model.node_path_parts,
+            display_search_results=self.model.display_search_results,
         )
         runnable.signals.results.connect(self.populate_table)
         self.thread_pool.start(runnable)
@@ -367,7 +368,7 @@ class QTiledBrowser(QWidget):
                 plot1 = ax.plot(node)
                 print(plot1)
                 self.viewer.window.add_dock_widget(
-                    self.mpl_widget, area="right"
+                    self.mpl_widget, area="right", name=f"{child_node_path}"
                 )
             else:
                 _logger.info(
@@ -419,9 +420,9 @@ class QTiledBrowser(QWidget):
             self._on_catalog_live_button_clicked
         )
 
-        # self.catalog_table.itemDoubleClicked.connect(
-        #     self._on_item_double_click
-        # )
+        self.catalog_table.itemDoubleClicked.connect(
+            self._on_item_double_click
+        )
         self.catalog_table.itemSelectionChanged.connect(self._on_item_selected)
 
     def initialize_values(self):
@@ -452,11 +453,11 @@ class QTiledBrowser(QWidget):
     def _on_breadcrumb_clicked(self, node_index):
         self.model.jump_to_node(node_index)
 
-    # def _on_item_double_click(self, item):
-    #     if item is self.catalog_breadcrumbs:
-    #         self.exit_node()
-    #         return
-    #     self.open_node(item.text())
+    def _on_item_double_click(self, item):
+        if item is self.catalog_breadcrumbs:
+            self.model.exit_node()
+            return
+        self.model.open_node(item.text())
 
     def _on_item_selected(self):
         selected = self.catalog_table.selectedItems()
