@@ -368,7 +368,7 @@ class QTiledBrowser(QWidget):
                 plot1 = ax.plot(node)
                 print(plot1)
                 self.viewer.window.add_dock_widget(
-                    self.mpl_widget, area="right"
+                    self.mpl_widget, area="right", name=f"{child_node_path}"
                 )
             else:
                 _logger.info(
