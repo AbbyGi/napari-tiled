@@ -30,6 +30,7 @@ napari-tiled = { path = ".", editable = true, extras = ["all"] }
 napari-tiled = { path = ".", editable = true, extras = ["dev"] }
 napari = { extras = ["qt"] }
 pyqt6 = "*"
+napari-plot = { git = "https://github.com/lukasz-migas/napari-plot", tag = "v0.3.1" }
 
 [feature.dev.tasks]
 napari = "napari"

@@ -3016,9 +3016,23 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zict-3.0.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-4.1.0-pyhcf101f3_0.conda
       - pypi: ./
+      - pypi: git+https://github.com/lukasz-migas/napari-plot?tag=v0.3.1#b7b399b75a43ee6f42d23d3d0db53cfb40498310
       - pypi: https://files.pythonhosted.org/packages/03/72/5a3d9ffef0caa7e1bc7a35d6300f6099bfccd1d8a485b4320ba20013a2d9/pyqt6_sip-13.11.1-cp314-cp314-manylinux1_x86_64.manylinux_2_5_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/25/b1/da1d826ccc9258674b26dd0abcbbb1c55cab06e7fbf2697518b67edc79fc/qtawesome-1.4.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/29/5e/52f56f93d5b20815ee0ae352f7a38eff25580edb180b4fa7df87cfeba68f/matplotlib-3.11.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/dd/3bf59a7cb1dc776a495c334c41427348cf2837efd3aa9a0a81d70a0be5b4/qtextra-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/4b/7a/862be57cf1a3269cb205ce56506fcbc2c50c10854fd23e74196d9df765bb/koyo-0.3.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/79/fe/fef04b2cc2930edba11095f9e9b5c2797f8594fc54316195cc39d3c3bc63/fonttools-4.67.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a8/07/21f7dc188e35b46631707f3b40ace5643a0e03a8e1e446854826d08a04ae/pyqt6_qt6-6.9.2-py3-none-manylinux_2_28_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/ab/b5/03f707f1f1650bf5bb284f8a8fdb291566e811db56654442ad4296950b23/click_groups-0.1.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d5/78/92f3c46440a83ebe22ae614bd6792e7b052bcb58ff128f677f5662015184/pyqt6-6.9.1-cp39-abi3-manylinux_2_28_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl
       osx-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/_x86_64-microarch-level-1-4_level1.conda
@@ -3351,9 +3365,23 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstandard-0.25.0-py314hd1e8ddb_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/zstd-1.5.7-h3eecb57_6.conda
       - pypi: ./
+      - pypi: git+https://github.com/lukasz-migas/napari-plot?tag=v0.3.1#b7b399b75a43ee6f42d23d3d0db53cfb40498310
+      - pypi: https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/1d/62c633faedef5bb3b8c7486a72e8a6466adaa2a14efcfccf85bb23426748/pyqt6_sip-13.11.1-cp314-cp314-macosx_10_15_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/25/b1/da1d826ccc9258674b26dd0abcbbb1c55cab06e7fbf2697518b67edc79fc/qtawesome-1.4.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/30/18/49013c643c3d56fce1b7e909ef7c01c36a5bd906dfb58571c9dcdaa4dc38/fonttools-4.67.0-cp314-cp314-macosx_10_15_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/33/44/fcd3dd3f64c83c96bf9bce76ec16cca64bd9b91702c3d08fd8e3dafc73d9/pyqt6-6.11.0-cp310-abi3-macosx_10_14_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/38/cb/ef930289bcd3b4be77a619d6b89ccdd0f53d753053a45f69ed590fd49777/pyqt6_qt6-6.11.1-py3-none-macosx_10_14_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/40/dd/3bf59a7cb1dc776a495c334c41427348cf2837efd3aa9a0a81d70a0be5b4/qtextra-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/4b/7a/862be57cf1a3269cb205ce56506fcbc2c50c10854fd23e74196d9df765bb/koyo-0.3.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/54/b4/4facdb700bc236e4c676495ca3798d8134ab8668cbfe0f6b2e9ebf962a38/matplotlib-3.11.2-cp314-cp314-macosx_10_15_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ab/b5/03f707f1f1650bf5bb284f8a8fdb291566e811db56654442ad4296950b23/click_groups-0.1.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/aiohappyeyeballs-2.7.1-pyhd8ed1ab_0.conda
@@ -3683,9 +3711,23 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstandard-0.25.0-py314h9d33bd4_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
       - pypi: ./
+      - pypi: git+https://github.com/lukasz-migas/napari-plot?tag=v0.3.1#b7b399b75a43ee6f42d23d3d0db53cfb40498310
       - pypi: https://files.pythonhosted.org/packages/09/7d/d016af2de1975a0d90c9a911e3d82b2e8c8fe899f8af746ade42186f3845/pyqt6_qt6-6.11.1-py3-none-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/1d/62c633faedef5bb3b8c7486a72e8a6466adaa2a14efcfccf85bb23426748/pyqt6_sip-13.11.1-cp314-cp314-macosx_10_15_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/25/5b/c418f48918e40ef8c3f0f555567fe013c0c8058a8afa8040d6baeec80683/fonttools-4.67.0-cp314-cp314-macosx_10_15_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/25/b1/da1d826ccc9258674b26dd0abcbbb1c55cab06e7fbf2697518b67edc79fc/qtawesome-1.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/33/44/fcd3dd3f64c83c96bf9bce76ec16cca64bd9b91702c3d08fd8e3dafc73d9/pyqt6-6.11.0-cp310-abi3-macosx_10_14_universal2.whl
+      - pypi: https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/dd/3bf59a7cb1dc776a495c334c41427348cf2837efd3aa9a0a81d70a0be5b4/qtextra-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/4b/7a/862be57cf1a3269cb205ce56506fcbc2c50c10854fd23e74196d9df765bb/koyo-0.3.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/4c/a0/bba05f0a25bfeb0475c2f2a87958b31103aa6b7a5386017afb1a96212825/matplotlib-3.11.2-cp314-cp314-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ab/b5/03f707f1f1650bf5bb284f8a8fdb291566e811db56654442ad4296950b23/click_groups-0.1.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/aiohappyeyeballs-2.7.1-pyhd8ed1ab_0.conda
@@ -4005,8 +4047,23 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstandard-0.25.0-py314hc5dbbe4_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda
       - pypi: ./
+      - pypi: git+https://github.com/lukasz-migas/napari-plot?tag=v0.3.1#b7b399b75a43ee6f42d23d3d0db53cfb40498310
+      - pypi: https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/25/b1/da1d826ccc9258674b26dd0abcbbb1c55cab06e7fbf2697518b67edc79fc/qtawesome-1.4.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/dd/3bf59a7cb1dc776a495c334c41427348cf2837efd3aa9a0a81d70a0be5b4/qtextra-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/4b/7a/862be57cf1a3269cb205ce56506fcbc2c50c10854fd23e74196d9df765bb/koyo-0.3.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6f/85/dd9f03d78d87460e109e0121cd6201c5802bdd655656bf2780e964870fea/pyqt6-6.11.0-cp310-abi3-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/96/f2/b68fd566f7f86dbb53d933489e70487cabaea0e0161690e4899653bbc7fb/pyqt6_sip-13.11.1-cp314-cp314-win_amd64.whl
+      - pypi: https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ab/b5/03f707f1f1650bf5bb284f8a8fdb291566e811db56654442ad4296950b23/click_groups-0.1.6-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b3/d3/5230265a5ff16aead01ce1a432a6b5bbdabe086f433988f41a1395e6dff8/fonttools-4.67.0-cp314-cp314-win_amd64.whl
+      - pypi: https://files.pythonhosted.org/packages/e1/07/c6fe3ad3e685340704d314d765b7912993bcb8dc198f0e7a89382d37974b/win32_setctime-1.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/ea/61/4315ef0d63937fe56f451887b4a0be3b8e8b22cf1d92a8d157caac54570d/matplotlib-3.11.2-cp314-cp314-win_amd64.whl
+      - pypi: https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fa/f1/70e83c23bf897c7f5025aa100482f482038ef70232dc27b407659d941fbf/pyqt6_qt6-6.11.1-py3-none-win_amd64.whl
   testing:
     channels:
@@ -19155,6 +19212,73 @@ packages:
   - pytest-qt ; extra == 'testing'
   - napari[qt] ; extra == 'testing'
   requires_python: '>=3.10'
+- pypi: git+https://github.com/lukasz-migas/napari-plot?tag=v0.3.1#b7b399b75a43ee6f42d23d3d0db53cfb40498310
+  name: napari-plot
+  version: 0.3.1
+  requires_dist:
+  - napari-plugin-engine>=0.2.0
+  - numpy
+  - qtpy
+  - qtawesome>=1.2.0
+  - napari==0.8.0
+  - matplotlib
+  - vispy
+  - koyo
+  - qtextra
+  - pyside6>6.9.0 ; sys_platform == 'win32' and extra == 'pyside6'
+  - pyside6 ; sys_platform != 'win32' and extra == 'pyside6'
+  - napari-plot[pyside6] ; extra == 'pyside'
+  - pyqt5>=5.13.2,!=5.15.0 ; extra == 'pyqt5'
+  - pyqt6>=6.9.0 ; extra == 'pyqt6'
+  - pyqt6!=6.6.1 ; sys_platform == 'darwin' and extra == 'pyqt6'
+  - napari-plot[pyqt6] ; extra == 'pyqt'
+  - napari-plot[pyqt] ; extra == 'qt'
+  - napari-plot[optional,pyqt] ; extra == 'all'
+  - napari-plugin-manager>=0.1.10,<0.2.0 ; extra == 'all'
+  - triangle ; platform_machine != 'arm64' and extra == 'optional'
+  - numba>=0.57.1 ; extra == 'optional'
+  - zarr>=2.12.0 ; extra == 'optional'
+  - babel>=2.9.0 ; extra == 'test'
+  - fsspec>=2023.10.0 ; extra == 'test'
+  - hypothesis>=6.8.0 ; extra == 'test'
+  - lxml[html-clean]>5 ; extra == 'test'
+  - matplotlib>=3.6.1 ; extra == 'test'
+  - numba>=0.57.1 ; extra == 'test'
+  - pooch>=1.6.0 ; extra == 'test'
+  - coverage>7 ; extra == 'test'
+  - docstring-parser>=0.15 ; extra == 'test'
+  - pretend>=1.0.9 ; extra == 'test'
+  - pyautogui>=0.9.54 ; extra == 'test'
+  - pytest-qt>=4.3.1 ; extra == 'test'
+  - pytest-pretty>=1.1.0 ; extra == 'test'
+  - pytest>=8.1.0 ; extra == 'test'
+  - tensorstore>=0.1.13 ; extra == 'test'
+  - xarray>=0.16.2 ; extra == 'test'
+  - zarr>=2.12.0,<3.0.0 ; extra == 'test'
+  - ipython>=7.25.0 ; extra == 'test'
+  - qtconsole>=4.5.1 ; extra == 'test'
+  - rich>=12.0.0 ; extra == 'test'
+  - napari-plugin-manager>=0.1.10,<0.2.0 ; extra == 'test'
+  - torch>=1.7 ; extra == 'test-extra'
+  - pygithub>=1.44.1 ; extra == 'release'
+  - twine>=3.1.1 ; extra == 'release'
+  - gitpython>=3.1.0 ; extra == 'release'
+  - requests-cache>=0.9.2 ; extra == 'release'
+  - ruff ; extra == 'dev'
+  - pdbpp ; extra == 'dev'
+  - check-manifest>=0.42 ; extra == 'dev'
+  - pre-commit>=2.9.0 ; extra == 'dev'
+  - pydantic ; extra == 'dev'
+  - napari-plot[test] ; extra == 'dev'
+  - ruff ; extra == 'build'
+  - pyqt6 ; extra == 'build'
+  - mkdocs ; extra == 'docs'
+  - mkdocs-material ; extra == 'docs'
+  - mkdocs-minify-plugin ; extra == 'docs'
+  - mkdocstrings ; extra == 'docs'
+  - mkdocstrings-python ; extra == 'docs'
+  - markdown-changelog ; extra == 'docs'
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/02/08/9c41fb51ab5b43eb21674aff13df270e8ba6c4b29c8624e328dc7a9482af/distlib-0.4.3-py2.py3-none-any.whl
   name: distlib
   version: 0.4.3
@@ -19173,6 +19297,63 @@ packages:
   name: pyqt6-qt6
   version: 6.11.1
   sha256: fd05b31a3c83111b6eb82bb472ccfe531ef823f70d085b82fd1edc5ad2553c54
+- pypi: https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl
+  name: loguru
+  version: 0.7.3
+  sha256: 31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c
+  requires_dist:
+  - colorama>=0.3.4 ; sys_platform == 'win32'
+  - aiocontextvars>=0.2.0 ; python_full_version < '3.7'
+  - win32-setctime>=1.0.0 ; sys_platform == 'win32'
+  - pre-commit==4.0.1 ; python_full_version >= '3.9' and extra == 'dev'
+  - tox==3.27.1 ; python_full_version < '3.8' and extra == 'dev'
+  - tox==4.23.2 ; python_full_version >= '3.8' and extra == 'dev'
+  - pytest==6.1.2 ; python_full_version < '3.8' and extra == 'dev'
+  - pytest==8.3.2 ; python_full_version >= '3.8' and extra == 'dev'
+  - pytest-cov==2.12.1 ; python_full_version < '3.8' and extra == 'dev'
+  - pytest-cov==5.0.0 ; python_full_version == '3.8.*' and extra == 'dev'
+  - pytest-cov==6.0.0 ; python_full_version >= '3.9' and extra == 'dev'
+  - pytest-mypy-plugins==1.9.3 ; python_full_version >= '3.6' and python_full_version < '3.8' and extra == 'dev'
+  - pytest-mypy-plugins==3.1.0 ; python_full_version >= '3.8' and extra == 'dev'
+  - colorama==0.4.5 ; python_full_version < '3.8' and extra == 'dev'
+  - colorama==0.4.6 ; python_full_version >= '3.8' and extra == 'dev'
+  - freezegun==1.1.0 ; python_full_version < '3.8' and extra == 'dev'
+  - freezegun==1.5.0 ; python_full_version >= '3.8' and extra == 'dev'
+  - exceptiongroup==1.1.3 ; python_full_version >= '3.7' and python_full_version < '3.11' and extra == 'dev'
+  - mypy==0.910 ; python_full_version < '3.6' and extra == 'dev'
+  - mypy==0.971 ; python_full_version == '3.6.*' and extra == 'dev'
+  - mypy==1.4.1 ; python_full_version == '3.7.*' and extra == 'dev'
+  - mypy==1.13.0 ; python_full_version >= '3.8' and extra == 'dev'
+  - sphinx==8.1.3 ; python_full_version >= '3.11' and extra == 'dev'
+  - sphinx-rtd-theme==3.0.2 ; python_full_version >= '3.11' and extra == 'dev'
+  - myst-parser==4.0.0 ; python_full_version >= '3.11' and extra == 'dev'
+  - build==1.2.2 ; python_full_version >= '3.11' and extra == 'dev'
+  - twine==6.0.1 ; python_full_version >= '3.11' and extra == 'dev'
+  requires_python: '>=3.5,<4.0'
+- pypi: https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl
+  name: mpire
+  version: 2.10.2
+  sha256: d627707f7a8d02aa4c7f7d59de399dec5290945ddf7fbd36cbb1d6ebb37a51fb
+  requires_dist:
+  - pygments>=2.0
+  - tqdm>=4.27
+  - pywin32>=301 ; sys_platform == 'win32'
+  - importlib-resources ; python_full_version < '3.9'
+  - flask ; extra == 'dashboard'
+  - multiprocess ; python_full_version < '3.11' and extra == 'dill'
+  - multiprocess>=0.70.15 ; python_full_version >= '3.11' and extra == 'dill'
+  - docutils==0.17.1 ; extra == 'docs'
+  - sphinx==3.2.1 ; extra == 'docs'
+  - sphinx-rtd-theme==0.5.0 ; extra == 'docs'
+  - sphinx-autodoc-typehints==1.11.0 ; extra == 'docs'
+  - sphinxcontrib-images==0.9.2 ; extra == 'docs'
+  - sphinx-versions==1.0.1 ; extra == 'docs'
+  - ipywidgets ; extra == 'testing'
+  - numpy ; extra == 'testing'
+  - rich ; extra == 'testing'
+  - pywin32>=301 ; sys_platform == 'win32' and extra == 'testing'
+  - multiprocess ; python_full_version < '3.11' and extra == 'testing'
+  - multiprocess>=0.70.15 ; python_full_version >= '3.11' and extra == 'testing'
 - pypi: https://files.pythonhosted.org/packages/20/1d/62c633faedef5bb3b8c7486a72e8a6466adaa2a14efcfccf85bb23426748/pyqt6_sip-13.11.1-cp314-cp314-macosx_10_15_universal2.whl
   name: pyqt6-sip
   version: 13.11.1
@@ -19198,6 +19379,96 @@ packages:
   - setuptools ; extra == 'dev'
   - xmlschema ; extra == 'dev'
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/25/5b/c418f48918e40ef8c3f0f555567fe013c0c8058a8afa8040d6baeec80683/fonttools-4.67.0-cp314-cp314-macosx_10_15_universal2.whl
+  name: fonttools
+  version: 4.67.0
+  sha256: 846982e89b1861d6c9d7fcd6567aec3fa5a10ad313e7f2076045fcd339cfbd8e
+  requires_dist:
+  - lxml>=4.0 ; extra == 'lxml'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'woff'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'woff'
+  - zopfli>=0.1.4 ; extra == 'woff'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'unicode'
+  - lz4>=1.7.4.2 ; extra == 'graphite'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'interpolatable'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'interpolatable'
+  - pycairo ; extra == 'interpolatable'
+  - matplotlib ; extra == 'plot'
+  - sympy ; extra == 'symfont'
+  - xattr ; sys_platform == 'darwin' and extra == 'type1'
+  - skia-pathops>=0.5.0 ; extra == 'pathops'
+  - uharfbuzz>=0.45.0 ; extra == 'repacker'
+  - lxml>=4.0 ; extra == 'all'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'all'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'all'
+  - zopfli>=0.1.4 ; extra == 'all'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'all'
+  - lz4>=1.7.4.2 ; extra == 'all'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'all'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'all'
+  - pycairo ; extra == 'all'
+  - matplotlib ; extra == 'all'
+  - sympy ; extra == 'all'
+  - xattr ; sys_platform == 'darwin' and extra == 'all'
+  - skia-pathops>=0.5.0 ; extra == 'all'
+  - uharfbuzz>=0.45.0 ; extra == 'all'
+  requires_python: '>=3.11'
+- pypi: https://files.pythonhosted.org/packages/25/b1/da1d826ccc9258674b26dd0abcbbb1c55cab06e7fbf2697518b67edc79fc/qtawesome-1.4.2-py3-none-any.whl
+  name: qtawesome
+  version: 1.4.2
+  sha256: dbf08524428fa2df73918ce362153254cd44f089380576d84bfaad8f40eece45
+  requires_dist:
+  - qtpy
+  requires_python: '>=3.7'
+- pypi: https://files.pythonhosted.org/packages/29/5e/52f56f93d5b20815ee0ae352f7a38eff25580edb180b4fa7df87cfeba68f/matplotlib-3.11.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+  name: matplotlib
+  version: 3.11.2
+  sha256: 8c8255de28f986d935a64c9ca71c0ec2d2f41d355691f5ea684725dc91413f71
+  requires_dist:
+  - contourpy>=1.0.1
+  - cycler>=0.10
+  - fonttools>=4.28.2
+  - kiwisolver>=1.3.1
+  - numpy>=1.25
+  - packaging>=20.0
+  - pillow>=9
+  - pyparsing>=3
+  - python-dateutil>=2.7
+  requires_python: '>=3.11'
+- pypi: https://files.pythonhosted.org/packages/30/18/49013c643c3d56fce1b7e909ef7c01c36a5bd906dfb58571c9dcdaa4dc38/fonttools-4.67.0-cp314-cp314-macosx_10_15_x86_64.whl
+  name: fonttools
+  version: 4.67.0
+  sha256: 952eb091689545d86d16e40f719ed7bb086dd810a07dcc9ea2ca0a81004810a3
+  requires_dist:
+  - lxml>=4.0 ; extra == 'lxml'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'woff'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'woff'
+  - zopfli>=0.1.4 ; extra == 'woff'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'unicode'
+  - lz4>=1.7.4.2 ; extra == 'graphite'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'interpolatable'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'interpolatable'
+  - pycairo ; extra == 'interpolatable'
+  - matplotlib ; extra == 'plot'
+  - sympy ; extra == 'symfont'
+  - xattr ; sys_platform == 'darwin' and extra == 'type1'
+  - skia-pathops>=0.5.0 ; extra == 'pathops'
+  - uharfbuzz>=0.45.0 ; extra == 'repacker'
+  - lxml>=4.0 ; extra == 'all'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'all'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'all'
+  - zopfli>=0.1.4 ; extra == 'all'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'all'
+  - lz4>=1.7.4.2 ; extra == 'all'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'all'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'all'
+  - pycairo ; extra == 'all'
+  - matplotlib ; extra == 'all'
+  - sympy ; extra == 'all'
+  - xattr ; sys_platform == 'darwin' and extra == 'all'
+  - skia-pathops>=0.5.0 ; extra == 'all'
+  - uharfbuzz>=0.45.0 ; extra == 'all'
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/33/44/fcd3dd3f64c83c96bf9bce76ec16cca64bd9b91702c3d08fd8e3dafc73d9/pyqt6-6.11.0-cp310-abi3-macosx_10_14_universal2.whl
   name: pyqt6
   version: 6.11.0
@@ -19206,10 +19477,130 @@ packages:
   - pyqt6-sip>=13.8,<14
   - pyqt6-qt6>=6.11.0,<6.12.0
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl
+  name: pyparsing
+  version: 3.3.3
+  sha256: ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4
+  requires_dist:
+  - railroad-diagrams ; extra == 'diagrams'
+  - jinja2 ; extra == 'diagrams'
+  requires_python: '>=3.9'
 - pypi: https://files.pythonhosted.org/packages/38/cb/ef930289bcd3b4be77a619d6b89ccdd0f53d753053a45f69ed590fd49777/pyqt6_qt6-6.11.1-py3-none-macosx_10_14_x86_64.whl
   name: pyqt6-qt6
   version: 6.11.1
   sha256: 694486f18b7ab9b1edcdb50e0c9f5cb726e096107da90ae7b0e810f18e2002b3
+- pypi: https://files.pythonhosted.org/packages/40/dd/3bf59a7cb1dc776a495c334c41427348cf2837efd3aa9a0a81d70a0be5b4/qtextra-0.2.2-py3-none-any.whl
+  name: qtextra
+  version: 0.2.2
+  sha256: c3bbb5bebbb22765e2c269da3148bed35b65e3fef1c3dc43ced66a30e5edcf97
+  requires_dist:
+  - appdirs
+  - koyo>=0.3.5
+  - numpy
+  - psygnal>=0.14.2 ; python_full_version < '3.10'
+  - psygnal>=0.15.0 ; python_full_version >= '3.10'
+  - pydantic-extra-types
+  - pydantic>2
+  - qtawesome
+  - qtpy
+  - superqt>=0.7.1
+  - ipykernel>=5.2.0 ; extra == 'all'
+  - pandas ; extra == 'all'
+  - polars[pandas] ; extra == 'all'
+  - pyqt6 ; sys_platform != 'win32' and extra == 'all'
+  - pyqt6>6.9.0 ; sys_platform == 'win32' and extra == 'all'
+  - qtconsole>=4.5.1,!=4.7.6,!=5.4.2 ; extra == 'all'
+  - sentry-sdk>2 ; extra == 'all'
+  - ipykernel>=5.2.0 ; extra == 'console'
+  - qtconsole>=4.5.1,!=4.7.6,!=5.4.2 ; extra == 'console'
+  - check-manifest ; extra == 'dev'
+  - ipython ; extra == 'dev'
+  - mypy ; extra == 'dev'
+  - pdbpp ; extra == 'dev'
+  - pre-commit ; extra == 'dev'
+  - pytest-cov ; extra == 'dev'
+  - pytest-pretty ; extra == 'dev'
+  - pytest-qt ; extra == 'dev'
+  - pytest>=8.1 ; extra == 'dev'
+  - qtreload ; extra == 'dev'
+  - rich ; extra == 'dev'
+  - ruff ; extra == 'dev'
+  - pandas ; extra == 'df'
+  - polars[pandas] ; extra == 'df'
+  - ipykernel>=5.2.0 ; extra == 'docs'
+  - mkdocs-macros-plugin>=1.3.9 ; extra == 'docs'
+  - mkdocs-material>=9.6.20 ; extra == 'docs'
+  - mkdocs-video>=1.5.0 ; extra == 'docs'
+  - mkdocstrings-python>=1.18.2 ; extra == 'docs'
+  - mkdocstrings>=0.30.0 ; extra == 'docs'
+  - qtconsole>=4.5.1,!=4.7.6,!=5.4.2 ; extra == 'docs'
+  - sentry-sdk>2 ; extra == 'docs'
+  - pyqt5 ; extra == 'pyqt5'
+  - pyqt6 ; sys_platform != 'win32' and extra == 'pyqt6'
+  - pyqt6>6.9.0 ; sys_platform == 'win32' and extra == 'pyqt6'
+  - pyside2 ; extra == 'pyside2'
+  - pyside6 ; sys_platform != 'win32' and extra == 'pyside6'
+  - pyside6>6.9.0 ; sys_platform == 'win32' and extra == 'pyside6'
+  - qtreload ; extra == 'reload'
+  - sentry-sdk>2 ; extra == 'sentry'
+  - pytest-cov ; extra == 'test'
+  - pytest-pretty ; extra == 'test'
+  - pytest-qt ; extra == 'test'
+  - pytest>=8.1 ; extra == 'test'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl
+  name: toml
+  version: 0.10.2
+  sha256: 806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b
+  requires_python: '>=2.6,!=3.0.*,!=3.1.*,!=3.2.*'
+- pypi: https://files.pythonhosted.org/packages/4b/7a/862be57cf1a3269cb205ce56506fcbc2c50c10854fd23e74196d9df765bb/koyo-0.3.6-py3-none-any.whl
+  name: koyo
+  version: 0.3.6
+  sha256: e3e4b51927d2e2eaa5e3fb5026aa2143a844c860fbd0b8390c4b338b5737779b
+  requires_dist:
+  - click
+  - click-groups
+  - numpy>=2
+  - scipy
+  - numba
+  - matplotlib
+  - mpire
+  - natsort
+  - loguru
+  - toml
+  - requests
+  - tabulate
+  - psutil
+  - pandas ; extra == 'df'
+  - pylnk3 ; sys_platform == 'win32' and extra == 'win'
+  - python-pptx ; extra == 'pptx'
+  - pyperclip ; extra == 'clipboard'
+  - scikit-learn ; extra == 'image'
+  - pytest>=6.0 ; extra == 'test'
+  - pytest-cov ; extra == 'test'
+  - ipython ; extra == 'dev'
+  - mypy ; extra == 'dev'
+  - pdbpp ; extra == 'dev'
+  - pre-commit ; extra == 'dev'
+  - rich ; extra == 'dev'
+  - ruff ; extra == 'dev'
+  - koyo[test] ; extra == 'dev'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/4c/a0/bba05f0a25bfeb0475c2f2a87958b31103aa6b7a5386017afb1a96212825/matplotlib-3.11.2-cp314-cp314-macosx_11_0_arm64.whl
+  name: matplotlib
+  version: 3.11.2
+  sha256: 1a3040b209f3968b4e84161df7b174f07a9fad33b0f2d7e48ea3bbd3075e2863
+  requires_dist:
+  - contourpy>=1.0.1
+  - cycler>=0.10
+  - fonttools>=4.28.2
+  - kiwisolver>=1.3.1
+  - numpy>=1.25
+  - packaging>=20.0
+  - pillow>=9
+  - pyparsing>=3
+  - python-dateutil>=2.7
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
   name: pluggy
   version: 1.6.0
@@ -19221,6 +19612,21 @@ packages:
   - pytest-benchmark ; extra == 'testing'
   - coverage ; extra == 'testing'
   requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/54/b4/4facdb700bc236e4c676495ca3798d8134ab8668cbfe0f6b2e9ebf962a38/matplotlib-3.11.2-cp314-cp314-macosx_10_15_x86_64.whl
+  name: matplotlib
+  version: 3.11.2
+  sha256: c9721f81275499da1feeb36a2cf8192ea086283b3bd16b7dc4c9d7aedb7396d6
+  requires_dist:
+  - contourpy>=1.0.1
+  - cycler>=0.10
+  - fonttools>=4.28.2
+  - kiwisolver>=1.3.1
+  - numpy>=1.25
+  - packaging>=20.0
+  - pillow>=9
+  - pyparsing>=3
+  - python-dateutil>=2.7
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/6b/2c/222ba12a545189017120f8eddfc1a0bd4616b47d5d4a8d99421edb2fe4c6/coverage-7.15.2-cp314-cp314-macosx_11_0_arm64.whl
   name: coverage
   version: 7.15.2
@@ -19270,6 +19676,40 @@ packages:
   - pyqt6-sip>=13.8,<14
   - pyqt6-qt6>=6.11.0,<6.12.0
   requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/79/fe/fef04b2cc2930edba11095f9e9b5c2797f8594fc54316195cc39d3c3bc63/fonttools-4.67.0-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+  name: fonttools
+  version: 4.67.0
+  sha256: 916836845e4b1c1447bb61390ffb3cb5f2940fd9f5d6de4685539a81806c7764
+  requires_dist:
+  - lxml>=4.0 ; extra == 'lxml'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'woff'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'woff'
+  - zopfli>=0.1.4 ; extra == 'woff'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'unicode'
+  - lz4>=1.7.4.2 ; extra == 'graphite'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'interpolatable'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'interpolatable'
+  - pycairo ; extra == 'interpolatable'
+  - matplotlib ; extra == 'plot'
+  - sympy ; extra == 'symfont'
+  - xattr ; sys_platform == 'darwin' and extra == 'type1'
+  - skia-pathops>=0.5.0 ; extra == 'pathops'
+  - uharfbuzz>=0.45.0 ; extra == 'repacker'
+  - lxml>=4.0 ; extra == 'all'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'all'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'all'
+  - zopfli>=0.1.4 ; extra == 'all'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'all'
+  - lz4>=1.7.4.2 ; extra == 'all'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'all'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'all'
+  - pycairo ; extra == 'all'
+  - matplotlib ; extra == 'all'
+  - sympy ; extra == 'all'
+  - xattr ; sys_platform == 'darwin' and extra == 'all'
+  - skia-pathops>=0.5.0 ; extra == 'all'
+  - uharfbuzz>=0.45.0 ; extra == 'all'
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/81/5f/aed265fd7a3551a394f36dfe41868aee709b7f95db4052205b4ad1563ac3/coverage-7.15.2-cp314-cp314-macosx_10_15_x86_64.whl
   name: coverage
   version: 7.15.2
@@ -19281,6 +19721,13 @@ packages:
   name: pyqt6-sip
   version: 13.11.1
   sha256: 581e287bf42587593b88b30d9db06ed0fccbf40f345a5bd3ec3f00a5692e2430
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl
+  name: tabulate
+  version: 0.10.0
+  sha256: f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3
+  requires_dist:
+  - wcwidth ; extra == 'widechars'
   requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/9d/7a/d968e294073affff457b041c2be9868a40c1c71f4a35fcc1e45e5493067b/pytest_cov-7.1.0-py3-none-any.whl
   name: pytest-cov
@@ -19318,6 +19765,57 @@ packages:
   name: pyqt6-qt6
   version: 6.9.2
   sha256: 9abfc0ee4a8293a6442128ae3f87f68e82e2a949d7b9caabd98c86ba5679ab48
+- pypi: https://files.pythonhosted.org/packages/ab/b5/03f707f1f1650bf5bb284f8a8fdb291566e811db56654442ad4296950b23/click_groups-0.1.6-py3-none-any.whl
+  name: click-groups
+  version: 0.1.6
+  sha256: a0db7b1c8e05aac6128fd1a56ef429b6c8b1cf900004a47841bf18a1b8380b66
+  requires_dist:
+  - click>=7.0
+  - pytest>=6.0 ; extra == 'test'
+  - pytest-cov ; extra == 'test'
+  - black ; extra == 'dev'
+  - ipython ; extra == 'dev'
+  - mypy ; extra == 'dev'
+  - pdbpp ; extra == 'dev'
+  - pre-commit ; extra == 'dev'
+  - rich ; extra == 'dev'
+  - ruff ; extra == 'dev'
+  - click-groups[test] ; extra == 'dev'
+  requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/b3/d3/5230265a5ff16aead01ce1a432a6b5bbdabe086f433988f41a1395e6dff8/fonttools-4.67.0-cp314-cp314-win_amd64.whl
+  name: fonttools
+  version: 4.67.0
+  sha256: 4e2c1586b5b6588a47d02e2588170eefdc996b708f2659c44dbe169bd6fcacb5
+  requires_dist:
+  - lxml>=4.0 ; extra == 'lxml'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'woff'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'woff'
+  - zopfli>=0.1.4 ; extra == 'woff'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'unicode'
+  - lz4>=1.7.4.2 ; extra == 'graphite'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'interpolatable'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'interpolatable'
+  - pycairo ; extra == 'interpolatable'
+  - matplotlib ; extra == 'plot'
+  - sympy ; extra == 'symfont'
+  - xattr ; sys_platform == 'darwin' and extra == 'type1'
+  - skia-pathops>=0.5.0 ; extra == 'pathops'
+  - uharfbuzz>=0.45.0 ; extra == 'repacker'
+  - lxml>=4.0 ; extra == 'all'
+  - brotli>=1.0.1 ; platform_python_implementation == 'CPython' and extra == 'all'
+  - brotlicffi>=0.8.0 ; platform_python_implementation != 'CPython' and extra == 'all'
+  - zopfli>=0.1.4 ; extra == 'all'
+  - unicodedata2>=18.0.0 ; python_full_version < '3.16' and extra == 'all'
+  - lz4>=1.7.4.2 ; extra == 'all'
+  - scipy ; platform_python_implementation != 'PyPy' and extra == 'all'
+  - munkres ; platform_python_implementation == 'PyPy' and extra == 'all'
+  - pycairo ; extra == 'all'
+  - matplotlib ; extra == 'all'
+  - sympy ; extra == 'all'
+  - xattr ; sys_platform == 'darwin' and extra == 'all'
+  - skia-pathops>=0.5.0 ; extra == 'all'
+  - uharfbuzz>=0.45.0 ; extra == 'all'
+  requires_python: '>=3.11'
 - pypi: https://files.pythonhosted.org/packages/c6/83/5d809dc808fb1698c671f3e372259bb9158e64b7ea526fc6ab7de64de9fe/coverage-7.15.2-cp314-cp314-win_amd64.whl
   name: coverage
   version: 7.15.2
@@ -19359,6 +19857,50 @@ packages:
   - pyqt6-sip>=13.8,<14
   - pyqt6-qt6>=6.9.0,<6.10.0
   requires_python: '>=3.9'
+- pypi: https://files.pythonhosted.org/packages/e1/07/c6fe3ad3e685340704d314d765b7912993bcb8dc198f0e7a89382d37974b/win32_setctime-1.2.0-py3-none-any.whl
+  name: win32-setctime
+  version: 1.2.0
+  sha256: 95d644c4e708aba81dc3704a116d8cbc974d70b3bdb8be1d150e36be6e9d1390
+  requires_dist:
+  - black>=19.3b0 ; python_full_version >= '3.6' and extra == 'dev'
+  - pytest>=4.6.2 ; extra == 'dev'
+  requires_python: '>=3.5'
+- pypi: https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl
+  name: cycler
+  version: 0.12.1
+  sha256: 85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30
+  requires_dist:
+  - ipython ; extra == 'docs'
+  - matplotlib ; extra == 'docs'
+  - numpydoc ; extra == 'docs'
+  - sphinx ; extra == 'docs'
+  - pytest ; extra == 'tests'
+  - pytest-cov ; extra == 'tests'
+  - pytest-xdist ; extra == 'tests'
+  requires_python: '>=3.8'
+- pypi: https://files.pythonhosted.org/packages/ea/61/4315ef0d63937fe56f451887b4a0be3b8e8b22cf1d92a8d157caac54570d/matplotlib-3.11.2-cp314-cp314-win_amd64.whl
+  name: matplotlib
+  version: 3.11.2
+  sha256: ecea603dd2fbf8242fd31a305a8b12a4ece2de28096870c65fdd0d1e35b8d9a6
+  requires_dist:
+  - contourpy>=1.0.1
+  - cycler>=0.10
+  - fonttools>=4.28.2
+  - kiwisolver>=1.3.1
+  - numpy>=1.25
+  - packaging>=20.0
+  - pillow>=9
+  - pyparsing>=3
+  - python-dateutil>=2.7
+  requires_python: '>=3.11'
+- pypi: https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl
+  name: natsort
+  version: 8.4.0
+  sha256: 4732914fb471f56b5cce04d7bae6f164a592c7712e1c85f9ef585e197299521c
+  requires_dist:
+  - fastnumbers>=2.0.0 ; extra == 'fast'
+  - pyicu>=1.0.0 ; extra == 'icu'
+  requires_python: '>=3.7'
 - pypi: https://files.pythonhosted.org/packages/fa/f1/70e83c23bf897c7f5025aa100482f482038ef70232dc27b407659d941fbf/pyqt6_qt6-6.11.1-py3-none-win_amd64.whl
   name: pyqt6-qt6
   version: 6.11.1
