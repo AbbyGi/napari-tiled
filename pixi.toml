@@ -25,7 +25,7 @@ testing = { features = ["testing"], solve-group = "default" }
 [tasks]
 
 [feature.all.pypi-dependencies]
-napari-tiled = { path = ".", editable = true, extras = ["all"] }
+napari-tiled = { path = ".", editable = false, extras = ["all"] }
 
 [feature.dev.pypi-dependencies]
 napari-tiled = { path = ".", editable = true, extras = ["dev"] }
