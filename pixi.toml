@@ -13,7 +13,7 @@ scikit-image = "*"
 bluesky-tiled-plugins = ">=2.0.0rc3"
 
 [pypi-dependencies]
-napari-tiled = { path = ".", editable = true }
+napari-tiled = { path = ".", editable = false }
 tiled = { version = "*", extras = ["array", "client"] }
 
 [environments]
@@ -26,6 +26,11 @@ testing = { features = ["testing"], solve-group = "default" }
 
 [feature.all.pypi-dependencies]
 napari-tiled = { path = ".", editable = false, extras = ["all"] }
+napari = { extras = ["all"] }
+pyqt6 = "*"
+
+[feature.all.tasks]
+napari = "napari"
 
 [feature.dev.pypi-dependencies]
 napari-tiled = { path = ".", editable = true, extras = ["dev"] }
